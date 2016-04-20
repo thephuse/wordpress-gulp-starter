@@ -1,6 +1,14 @@
 // https://www.npmjs.com/this-page
-import ThisPage from 'this-page'
+import thisPage from 'this-page'
 
-const thisPage = new ThisPage()
+thisPage().is('home').run(() => {
+  // Home page module code
+})
 
-thisPage.is('home').run(() => { })
+thisPage().is('archive').run(() => {
+  // Archive page module code
+})
+
+thisPage().is('single').run(() => {
+  // Single post module code
+})

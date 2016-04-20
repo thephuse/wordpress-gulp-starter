@@ -5,8 +5,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "predev": "gulp manifest",
-    "dev": "gulp dev",
+    "prewatch": "gulp manifest",
+    "watch": "gulp dev",
     "premake": "gulp manifest",
     "make": "gulp make",
     "manifest": "gulp manifest"
@@ -37,6 +37,6 @@
     "webpack-stream": "^3.1.0"
   },
   "dependencies": {
-    "this-page": "^1.0.2"
+    "this-page": "^1.1.0"
   }
 }
