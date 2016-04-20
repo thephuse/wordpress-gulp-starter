@@ -1,0 +1,21 @@
+{
+  "name": "phuse/wordpress-gulp-starter",
+  "description": "WordPress Gulp Starter",
+  "type": "wordpress-core",
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "http://wpackagist.org"
+    }
+  ],
+  "require": {
+    "johnpbloch/wordpress": ">=4.5",
+    "johnpbloch/wordpress-core-installer": ">=0.2.1",
+    "wpackagist-plugin/timber-library":">=0.22.5"
+  },
+  "extra": {
+    "installer-paths": {
+      "wordpress/wp-content/plugins/{$name}/": ["type:wordpress-plugin"]
+    }
+  }
+}

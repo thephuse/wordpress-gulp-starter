@@ -1,0 +1,19 @@
+<li>
+
+  {% if post.thumbnail %}
+    {% post.thumbnail.src|tojpg|resize(600) %}
+  {% endif %}
+
+  <a href="{{ post.link }}">{{ post.title }}</a>
+
+  <span>{{ post.author.nickname }}</span>
+
+  <date datetime="{{ post.post_date }}">{{ post.post_date|date }}</date>
+
+  {% if post.post_excerpt %}
+    {{ post.post_excerpt }}
+  {% else %}
+    {{ post.content|truncate(30) }}
+  {% endif %}
+
+</li>

@@ -1,0 +1,6 @@
+composer.lock
+npm-debug.log
+node_modules/
+vendor/
+wordpress/
+src/style.css

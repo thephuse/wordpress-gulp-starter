@@ -1,0 +1,38 @@
+[
+  {
+    "name": "example-taxonomy",
+    "post_types": [
+      "post",
+      "routes"
+    ],
+    "settings" : {
+      "labels": {
+        "name": "Example Taxonomies",
+        "singular_name": "Example Taxonomy",
+        "menu_name": "Example Taxonomies",
+        "all_items": "All Example Taxonomies",
+        "parent_item": "Parent Example Taxonomy",
+        "parent_item_colon": "Parent Example Taxonomy:",
+        "new_item_name": "New Example Taxonomy",
+        "add_new_item": "Add Example Taxonomy",
+        "edit_item": "Edit Example Taxonomy",
+        "update_item": "Update Example Taxonomy",
+        "separate_items_with_commas": "Separate Example Taxonomies with Commas",
+        "search_items": "Search Example Taxonomies",
+        "add_or_remove_items": "Add or Remove Example Taxonomies",
+        "choose_from_most_used": "Choose from the Most Used Example Taxonomies",
+        "not_found": "Not Found"
+      },
+      "hierarchical": true,
+      "public": true,
+      "show_ui": true,
+      "show_admin_column": true,
+      "show_in_nav_menus": true,
+      "show_tagcloud": false,
+      "rewrite": {
+        "slug": "example-taxonomy"
+      },
+      "single_value": false
+    }
+  }
+]
