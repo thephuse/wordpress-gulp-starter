@@ -25,7 +25,7 @@ const manifestTask = function() {
     Version: ${manifest.version}
     Author: ${manifest.author}
     */`
-  return fs.writeFileSync(`${theme}/style.css`, tmpl, 'utf8')
+  return fs.writeFileSync(`${src}/style.css`, tmpl, 'utf8')
 }
 
 const cleanTask = function() {

@@ -5,7 +5,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "predev": "gulp manifest",
     "dev": "gulp dev",
+    "premake": "gulp manifest",
     "make": "gulp make",
     "manifest": "gulp manifest"
   },
